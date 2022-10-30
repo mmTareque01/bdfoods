@@ -102,7 +102,7 @@ if(!$mail->send()) {
   die($mail->ErrorInfo);
 
 } else {
-    echo "<script> alert('Изпратено')</script>";
+    echo "<script> alert('Sent')</script>";
 }
 
 
